@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caleb Faulkner Portfolio Site</title>
 </head>
+
 <body>
-    <header class="navigation"></header>
-    <div class="inline-block logo">
-        <img src="images/logo_100.jpg">
-    </div>
     <nav class="inline-block">
         <ul>
+            <img id="logo" src="images/logo_100.jpg">
             <li class="inline-block">Home</li>
             <li class="inline-block">UX/UI</li>
             <li class="inline-block">Motion Graphics</li>
@@ -22,16 +23,31 @@
             <li class="inline-block">Music</li>
         </ul>
     </nav>
-    <section class="heroImg">
-        <div class="content">
-            <img src="images/victual_mockup.png">
-            <h1>Hi, I'm Caleb Faulkner</h1>
-            <h2>Multimedia Designer From Atlanta, GA</h2>
-            <button></button> <button></button> <button></button>
-            <id>
-                <img src="images/profile_picture.jpg">
-            </id>
-        </div>
-    </section>
+    <div id="stage">
+        <aside class="heroImg">
+            <div class="content">
+                <h1>Hi, I'm Caleb Faulkner</h1>
+                <h2>Multimedia Designer From Atlanta, GA</h2>
+                <p>My goal is to experience and accelerate the progression and advancement of human society.</p>
+                <p>Current Work: 
+                <br>Junior Graphic Designer
+                <br>Xquisite Marketing - Contract
+                <br>
+                <br>Education:
+                <br>Georgia Tech - UX/UI
+                <br>Full Sail University - Digital Arts & Design</p>
+                <id>
+                    <img id="profilepic" src="images/profile_picture.jpg">
+                </id>
+            </div>
+        </aside>
+        <main class="navImg">
+            <div id="uxui" class="card"></div>
+            <div id="motionGraphics" class="card"></div>
+            <div id="graphicDesign" class="card"></div>
+            <div id="photography" class="card"></div>
+            <div id="music" class="card"></div>
+        </main>
+    </div>
 </body>
 </html>
