@@ -5,7 +5,8 @@ body {
 }
 .inline-block {
     display: inline-block;
-    vertical-align: top; 
+    font-size: 20px;
+    font-weight: 500;
 }
 .logo {
     width: 23%;
@@ -14,10 +15,14 @@ body {
 }
 nav {
     background: purple;
+    max-height: 100px;
+    width: 100%;
 }
 ul {
     width: 50%;
     margin-left: auto;
+    float: left;
+    margin: 20px 0 20px;
 }
 .heroImg {
     width: 500px;
@@ -38,19 +43,27 @@ ul {
     display: flex;
     width: 80vw;
     background-color: red;
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -360px 0 0 -775px;
 }
 div > h1 {
     font-size: 35px;
+    font-weight: 500;
 }
 div > h2 {
     font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 400;
 }
 ul {
     display: flex;
-    width: 800px;
+    width: 1200px;
     justify-content: space-evenly;
+}
+li {
+    vertical-align: middle; 
 }
 .card {
     max-width: 100%;
@@ -72,4 +85,5 @@ ul {
 }
 p {
     font-size: 20px;
+    font-weight: 400;
 }
