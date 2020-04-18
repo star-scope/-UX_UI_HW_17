@@ -117,7 +117,6 @@ ul {
     border-color: white;
     max-height: 200px;
     border-radius: 200px;
-    margin-top: 15%;
     transition: transform 0.5s;
 }
 #stage {
@@ -141,6 +140,9 @@ li {
 }
 .card {
     max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-style: solid;
     border-width: 10px;
     border-color: white;
@@ -161,7 +163,40 @@ li {
     margin-bottom: 17%;
 }
 #uxui {
-    background: url(../images/victual_mockup.png) no-repeat center center; 
+    background: url(../images/victual_mockup.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#uxuiText {
+    font-size: 40px;
+    font-weight: 500;
+    opacity: 100%;
+}
+#motionGraphics {
+    background: url(../images/cyberpunk_render.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#graphicDesign {
+    background: url(../images/folder_mockup.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#photography {
+    background: url(../images/gopro.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#music {
+    background: url(../images/ss_profile_pic.jpg) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -183,5 +218,8 @@ p {
     justify-self: flex-end;
 }
 #container {
-    perspective: 40px;
+    perspective: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 75px;
   }
