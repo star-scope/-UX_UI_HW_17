@@ -81,7 +81,7 @@ body {
     background: #212121;
     z-index: 1;
 }
-.mobilenav {
+.mobileNav {
     display: none;
     position: absolute;
     background-color: #212121;
@@ -202,13 +202,22 @@ li {
     -o-background-size: cover;
     background-size: cover;
 }
-#uxuiText {
-    font-size: 40px;
-    font-weight: 500;
-    opacity: 100%;
+#uxui:hover {
+    background: url(../images/victual_mockup_hover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #motionGraphics {
     background: url(../images/cyberpunk_render.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#motionGraphics:hover {
+    background: url(../images/cyberpunk_render_hover.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -221,6 +230,13 @@ li {
     -o-background-size: cover;
     background-size: cover;
 }
+#graphicDesign:hover {
+    background: url(../images/folder_mockup_hover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 #photography {
     background: url(../images/gopro.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -228,8 +244,22 @@ li {
     -o-background-size: cover;
     background-size: cover;
 }
+#photography:hover {
+    background: url(../images/gopro_hover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 #music {
-    background: url(../images/ss_profile_pic.jpg) no-repeat center top;
+    background: url(../images/ss_profile_pic.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#music:hover {
+    background: url(../images/ss_profile_pic_hover.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -271,7 +301,7 @@ p {
     .desktop {
         display: none;
     }
-    #toggle:checked + .mobilenav {
+    #toggle:checked + .mobileNav {
         display: flex;
         flex-direction: column;
         width: 100%;
