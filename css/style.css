@@ -18,7 +18,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -72,7 +71,7 @@ body {
     color: white;
     line-height: 1.3;
 }
-.inline-block {
+.nav {
     display: inline-block;
     font-size: 20px;
     font-weight: 500;
@@ -80,6 +79,28 @@ body {
     position: sticky;
     top: 0;
     background: #212121;
+    z-index: 1;
+}
+.mobilenav {
+    display: none;
+    position: absolute;
+    background-color: #212121;
+    border-style: solid;
+    z-index: 0;
+    height: 500px;
+    margin-top: -1px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
+}
+.mobile {
+    flex-basis: 50%;
+}
+label {
+    display: none;
+}
+#toggle {
+    display: none;
 }
 .logo {
     width: 23%;
@@ -89,6 +110,9 @@ body {
 nav {
     max-height: 100px;
     width: 100%;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
 }
 ul {
     display: flex;
@@ -118,12 +142,21 @@ ul {
     max-height: 200px;
     border-radius: 200px;
     transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    position: sticky;
 }
+#container {
+    perspective: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 75px;
+  }
 #stage {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 3%;
+    z-index: -1;
 }
 div > h1 {
     font-size: 35px;
@@ -163,7 +196,7 @@ li {
     margin-bottom: 17%;
 }
 #uxui {
-    background: url(../images/victual_mockup.png) no-repeat center center;
+    background: url(../images/victual_mockup.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -175,14 +208,14 @@ li {
     opacity: 100%;
 }
 #motionGraphics {
-    background: url(../images/cyberpunk_render.png) no-repeat center center;
+    background: url(../images/cyberpunk_render.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 #graphicDesign {
-    background: url(../images/folder_mockup.png) no-repeat center center;
+    background: url(../images/folder_mockup.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -217,9 +250,72 @@ p {
 #contact {
     justify-self: flex-end;
 }
-#container {
-    perspective: 20px;
-    max-width: 200px;
-    max-height: 200px;
-    margin-top: 75px;
+.bold {
+    font-weight: 500;
+}
+#hamburg {
+    width: 30%;
+    margin-left: 70%;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 300px;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .desktop {
+        display: none;
+    }
+    #toggle:checked + .mobilenav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #container {
+        margin: auto;
+        margin-top: 15%;
+        max-width: 200px;
+        min-width: 50px;
+    }
+    #stage {
+        display: inline-block;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .heroImg {
+        justify-content: center;
+        margin: auto;
+    }
+    #profilePic {
+        margin: auto;
+    }
+    .content {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    .navImg {
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        width: 70%;
+    }
+    aside {
+        max-width: 75%;
+        min-width: 50%;
+    }
+    .card{
+        margin-bottom: 20%;
+    }
+    [class*="col-"] {
+      width: 100%;
+    }
   }
