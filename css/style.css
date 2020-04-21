@@ -41,7 +41,6 @@ table {
 	border-spacing: 0;
 }
 
-
 * {
     box-sizing: border-box;
   }
@@ -187,8 +186,9 @@ li {
 .card:hover {
     border-radius: 50px;
     transition: all 0.1s ease;
-    -webkit-box-shadow: 0px 0px 15px 2px #000000; 
-    box-shadow: 0px 0px 15px 2px #000000;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
 }
 .navImg {
     width: 42%;
