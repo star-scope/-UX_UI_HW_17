@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Faulkner Portfolio Site</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <img id="logo" src="images/logo_100.png">
+            <li class="nav desktop"><a href="index.html">Home</a></li>
+            <li class="nav desktop"><a href="uxui.html">UX/UI</a></li>
+            <li class="nav desktop"><a href="mograph.html">Motion Graphics</a></li>
+            <li class="nav desktop"><a href="graphicdesign.html">Graphic Design</a></li>
+            <li class="nav desktop"><a href="photography.html">Photography</a></li>
+            <li class="nav desktop"><a href="music.html">Music</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="nav desktop" id="contact"><a href="contact.html">Contact</a></li>
+            <li>
+                <label for="toggle"> <img id="hamburg" src="images/hamburg.svg"> </label>
+            </li>
+        </ul>
+        <input type="checkbox" id="toggle"/>
+        <div class="mobileNav">
+            <a class="mobile" href="index.html">Home</a>
+            <a class="mobile" href="uxui.html">UX/UI</a>
+            <a class="mobile" href="mograph.html">Motion Graphics</a>
+            <a class="mobile" href="graphicdesign.html">Graphic Design</a>
+            <a class="mobile" href="photography.html">Photography</a>
+            <a class="mobile" href="music.html">Music</a>
+            <a class="mobile" href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div id="stage">
+        <aside class="heroImg">
+            <div class="content">
+                <h1>Hi, I'm Caleb Faulkner</h1>
+                <h2 class="tracking">Motion Graphics Artist</h2>
+                <p>Motion Graphics is one of my favorite categories of multimedia to work in. Most recently I worked on a package of VJ loops for the Tasty Network Showdown at ADE.
+                    <br>
+                    <br><span class="bold">Tools I Use:</span>
+                    <br>Adobe After Effects
+                    <br>Adobe Premiere
+                    <br>Maxon Cinema 4D
+                    <br>Octane Render
+                    <br>Blender
+                    <br>
+                    <br>Check out my demo reels and video work!
+                </p>
+                <div>
+                    <a href="https://vimeo.com/whostarscope" target="_blank"><img class="linkButton" src="images/vimeo.svg"></a>
+                    <a href="https://www.youtube.com/channel/UCxfl3jXGjQY37DszzENx2PQ?view_as=subscriber" target="_blank"><img class="linkButton" src="images/youtube.svg"></a>
+                </div>
+        </aside>
+        <main class="navImg">
+            <iframe class="youtube" width="940" height="528" src="https://www.youtube.com/embed/1OYQHRcsvqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="youtube" width="940" height="528" src="https://www.youtube.com/embed/F6aJ-VMfD_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>$("profilePic").offsetParent().css("background-color", "red");</script>
+    <script src="hoverpp.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Faulkner Portfolio Site</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <img id="logo" src="images/logo_100.png">
+            <li class="nav desktop"><a href="index.html">Home</a></li>
+            <li class="nav desktop"><a href="uxui.html">UX/UI</a></li>
+            <li class="nav desktop"><a href="mograph.html">Motion Graphics</a></li>
+            <li class="nav desktop"><a href="graphicdesign.html">Graphic Design</a></li>
+            <li class="nav desktop"><a href="photography.html">Photography</a></li>
+            <li class="nav desktop"><a href="music.html">Music</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="nav desktop" id="contact"><a href="contact.html">Contact</a></li>
+            <li>
+                <label for="toggle"> <img id="hamburg" src="images/hamburg.svg"> </label>
+            </li>
+        </ul>
+        <input type="checkbox" id="toggle"/>
+        <div class="mobileNav">
+            <a class="mobile" href="index.html">Home</a>
+            <a class="mobile" href="uxui.html">UX/UI</a>
+            <a class="mobile" href="mograph.html">Motion Graphics</a>
+            <a class="mobile" href="graphicdesign.html">Graphic Design</a>
+            <a class="mobile" href="photography.html">Photography</a>
+            <a class="mobile" href="music.html">Music</a>
+            <a class="mobile" href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div id="stage">
+        <aside class="heroImg">
+            <div class="content">
+                <h1>Hi, I'm Starscope</h1>
+                <h2 class="tracking">Music Producer</h2>
+                <p>I have almost a decade of experience producing, mixing, and mastering music. I've played piano since I was four years old, and often write my own pieces.</p>
+                <p><span class="bold">Tools I Use:</span>
+                    <br>Logic Pro X
+                    <br>Ableton Live 10
+                    <br>Serato DJ Pro
+                </p>
+                <div id="container">
+                    <div id="objectCoords"></div>
+                    <img id="sspp" src="images/ss_pp.png"></img>
+                </div>
+        </aside>
+        <main class="navImg">
+            <iframe class="musicEmbed" src="https://open.spotify.com/embed/artist/1bBK1tI5WOGlnMzRCKXR3B" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="musicEmbed" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/368702741%3Fsecret_token%3Ds-aL3Q4&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>$("profilePic").offsetParent().css("background-color", "red");</script>
+    <script src="hoverpp.js"></script>
+</body>
+</html>
