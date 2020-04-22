@@ -80,6 +80,13 @@ body {
     background: #212121;
     z-index: 1;
 }
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover {
+    color:#00A9FB; 
+}
 .mobileNav {
     display: none;
     position: absolute;
@@ -167,8 +174,17 @@ div > h2 {
     font-weight: 400;
     margin-bottom: 15%;
 }
+.tracking {
+    letter-spacing: 5px;
+}
 li {
     vertical-align: middle; 
+}
+.linkButton {
+    max-height: 60px;
+    max-width: 60px;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 .card {
     max-width: 100%;
@@ -260,6 +276,34 @@ li {
 }
 #music:hover {
     background: url(../images/ss_profile_pic_hover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#victual {
+    background: url(../images/victual.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#victual:hover {
+    background: url(../images/victual_hover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#hmi {
+    background: url(../images/hmi.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#hmi:hover {
+    background: url(../images/hmi_hover.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
