@@ -2,5 +2,7 @@ DirectoryIndex index.html
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{HTTP_HOST} !^www.caleb-faulkner.com/index$ [NC]
+RewriteRule ^(.*)$ http://www.caleb-faulkner.com/$1 [L,R=301]
 ErrorDocument 404 /404.html
 Redirect 301 / https://caleb-faulkner.com/
