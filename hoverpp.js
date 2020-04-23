@@ -93,4 +93,4 @@ var update = function(event) {
     profilePic.style.mozTransform = style;
     profilePic.style.msTransform = style;
     profilePic.style.oTransform = style;
-  };
+  };*/
