@@ -74,7 +74,7 @@ body {
     display: inline-block;
     font-size: 20px;
     font-weight: 500;
-    position: -webkit-sticky;
+    -webkit-position: sticky;
     position: sticky;
     top: 0;
     background: #212121;
@@ -92,9 +92,9 @@ body {
     position: absolute;
     background-color: #212121;
     border-style: solid;
-    z-index: 0;
+    z-index: 1;
     height: 500px;
-    margin-top: -1px;
+    margin-top: -10px;
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
@@ -426,6 +426,7 @@ p {
     }
     #toggle:checked + .mobileNav {
         display: flex;
+
         flex-direction: column;
         width: 100%;
         justify-content: space-around;
@@ -443,6 +444,12 @@ p {
         margin: auto;
         margin-top: 10%;
     }
+    .linkButton {
+        max-height: 60px;
+        max-width: 60px;
+        margin: 5%;
+        margin-top: 5%;
+    }
     .heroImg {
         justify-content: center;
         margin: auto;
@@ -453,6 +460,7 @@ p {
     .content {
         text-align: center;
         align-items: center;
+        position: sticky;
         width: 100%;
     }
     .navImg {
