@@ -408,7 +408,8 @@ p {
 }
 #logotag {
     max-height: 75px;
-    
+    margin-left: -2%;
+    margin-right: -.5%;
 }
 
 
