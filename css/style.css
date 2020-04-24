@@ -376,13 +376,18 @@ p {
     align-items: center;
     justify-content: center;
     display: inline-block;
-    margin-top: 5%;
 }
 #bigtext {
     text-align: center;
     align-items: center;
     font-size: 100px;
     font-weight: 700;
+    margin-top: -3%;
+    transition: all 0.2s ease;
+}
+#bigtext:hover {
+    letter-spacing: 15px;
+    transition: all 0.2s ease;
 }
 #smalltext {
     text-align: center;
@@ -443,6 +448,13 @@ p {
         justify-content: center;
         margin: auto;
         margin-top: 10%;
+    }
+    #containernotfound {
+        display: inline-block;
+        justify-content: center;
+        margin: auto;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     .linkButton {
         max-height: 60px;
