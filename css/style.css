@@ -405,6 +405,9 @@ p {
     left: 50%;
     transform: translate(-50%);
 }
+#logotag {
+    height: 50px;
+}
 
 
 @media only screen and (max-width: 1200px) {
