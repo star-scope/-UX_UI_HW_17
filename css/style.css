@@ -406,7 +406,7 @@ p {
     transform: translate(-50%);
 }
 #logotag {
-    height: 50px;
+    max-height: 50px;
 }
 
 
