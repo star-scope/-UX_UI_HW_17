@@ -399,6 +399,20 @@ div > h2 {
     -o-background-size: cover;
     background-size: cover;
 }
+#hoodHub {
+    background: url(../images/hoodHub.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#hoodHub:hover {
+    background: url(../images/hoodHub_hover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .youtube {
     float: right;
     margin-bottom: 5%;
