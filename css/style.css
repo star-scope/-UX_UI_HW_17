@@ -427,6 +427,32 @@ div > h2 {
     -o-background-size: cover;
     background-size: cover;
 }
+#uiSection {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #b90606;
+}
+#uimg {
+    margin-top: 100px;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0px;
+  }
+.column {
+  flex: 48%;
+  max-width: 48%;
+  padding: 0 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .youtube {
     float: right;
     margin-bottom: 5%;
@@ -513,7 +539,44 @@ div > h2 {
 
 
 /*----------------------------------- Media Query 1920 */
-
+@media only screen and (max-width: 1920px) {
+    .nav {
+        display: inline-block;
+        font-size: 17px;
+        font-weight: 500;
+        -webkit-position: sticky;
+        position: sticky;
+        top: 0;
+        background: #212121;
+        z-index: 1;
+        max-height: 70px;
+    }
+    #logotag {
+        max-height: 75px;
+        margin-left: -2%;
+        margin-right: -.5%;
+        transform: scale(.8);
+    }
+    #logo {
+        max-height: 75px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: auto;
+        float: center;
+        max-width: 100%;
+        margin: 0px 0 20px;
+        height: 70px;
+    }
+    .content {
+        width: 500px;
+        margin: 0 auto;
+        position: fixed;
+        transform: scale(.8);
+    }
+}
 
 /*----------------------------------- Media Query 1200px */
 @media only screen and (max-width: 1200px) {
