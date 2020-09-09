@@ -649,6 +649,13 @@ div > h2 {
         width: 70%;
         margin-bottom: 15%;
     }
+    #idcontent{
+        text-align: center;
+        align-items: center;
+        position: sticky;
+        width: 70%;
+        margin-bottom: 15%;
+    }
     .navImg {
         margin: auto;
         margin-top: 15%;

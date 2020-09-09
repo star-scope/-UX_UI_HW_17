@@ -9,7 +9,7 @@ do {
     distance2 += elem2.offsetTop;
     elem = elem.offsetParent;
     elem2 = elem2.offsetParent;
-} while(elem && elem2);
+} while (elem && elem2);
 
 var distance3 = distance + elem3.clientHeight;
 var windw = this;
@@ -17,8 +17,8 @@ var windw = this;
 $.fn.followTo = function (pos) {
     var $this = this,
         $window = $(windw);
-    
-    $window.scroll(function(){
+
+    $window.scroll(function () {
         var spacer = distance2 - elem3.clientHeight;
         if (($window.scrollTop() + distance3) > pos) {
             $this.css({
@@ -34,10 +34,7 @@ $.fn.followTo = function (pos) {
     });
 };
 
-$('#idcontent').followTo(distance2);
 
-window.addEventListener('resize', function(){
-    if(window.innerWidth > 1200){
-        $('#idcontent').followTo(distance2);
-    }
-});
+if (window.innerWidth > 1200) {
+    $('#idcontent').followTo(distance2);
+};
