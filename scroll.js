@@ -38,3 +38,13 @@ $.fn.followTo = function (pos) {
 if (window.innerWidth > 1200) {
     $('#idcontent').followTo(distance2);
 };
+
+//refresh page on browser resize
+$(window).bind('resize', function(e)
+{
+  if (window.RT) clearTimeout(window.RT);
+  window.RT = setTimeout(function()
+  {
+    this.location.reload(false); /* false to get page from cache */
+  }, 200);
+});
