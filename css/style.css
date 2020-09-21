@@ -332,20 +332,20 @@ div > h2 {
     margin-bottom: 17%;
 }
 #uxui {
-    background: url(../images/victual_mockup.jpg) no-repeat center center;
+    background: url(../images/ux.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 #uxui:before{
-    content: url(../images/victual_mockup_hover.jpg);
+    content: url(../images/ux_hover.jpg);
     width:0;
     height:0;
     visibility:hidden;
 }
 #uxui:hover {
-    background: url(../images/victual_mockup_hover.jpg) no-repeat center center;
+    background: url(../images/ux_hover.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -372,40 +372,40 @@ div > h2 {
     background-size: cover;
 }
 #graphicDesign {
-    background: url(../images/folder_mockup.jpg) no-repeat center center;
+    background: url(../images/mockup.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 #graphicDesign:before {
-    content: url(../images/folder_mockup_hover.jpg);
+    content: url(../images/mockup_hover.jpg);
     width:0;
     height:0;
     visibility:hidden;
 }
 #graphicDesign:hover {
-    background: url(../images/folder_mockup_hover.jpg) no-repeat center center;
+    background: url(../images/mockup_hover.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 #photography {
-    background: url(../images/gopro.jpg) no-repeat center center;
+    background: url(../images/photo.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 #photography:before {
-    content: url(../images/gopro_hover.jpg);
+    content: url(../images/photo_hover.jpg);
     width:0;
     height:0;
     visibility:hidden;
 }
 #photography:hover {
-    background: url(../images/gopro_hover.jpg) no-repeat center center;
+    background: url(../images/photo_hover.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
