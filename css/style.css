@@ -739,12 +739,14 @@ div > h2 {
         align-items: center;
         justify-content: center;
         border-style: solid;
-        border-width:8px;
-        border-color: white;
+        border-width: 8px;
+        border-color: #212121;
         background-color: grey;
         height: 220px;
         margin-bottom: 5%;
-        transition: all 0.1s ease;
+    }
+    .card:hover {
+        border-radius: 30px;
     }
     #container1 {
         display: flex;
@@ -901,7 +903,7 @@ div > h2 {
         min-width: 50%;
     }
     .card{
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
     [class*="col-"] {
       width: 100%;
