@@ -587,12 +587,15 @@ div > h2 {
     margin-right: auto;
     border-style: solid;
     border-width: 10px;
-    border-color: white;
-    transition: all 0.1s ease;
+    border-color: #212121;
+    transition: all 0.9s ease-out;
+    -webkit-box-shadow: 0px 5px 25px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 5px 25px 5px rgba(0,0,0,0.4);
+    box-shadow: 0px 5px 25px 5px rgba(0,0,0,0.4);
 }
 .resume:hover {
     border-radius: 50px;
-    transition: all 0.1s ease;
+    transition: all 0.3s ease-in;
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
@@ -805,12 +808,15 @@ div > h2 {
         margin-right: 25%;
         border-style: solid;
         border-width: 8px;
-        border-color: white;
-        transition: all 0.1s ease;
+        border-color: #212121;
+        transition: all 0.9s ease-out;
+        -webkit-box-shadow: 0px 5px 25px 5px rgba(0,0,0,0.4);
+        -moz-box-shadow: 0px 5px 25px 5px rgba(0,0,0,0.4);
+        box-shadow: 0px 5px 25px 5px rgba(0,0,0,0.4);
     }
     .resume:hover {
         border-radius: 35px;
-        transition: all 0.1s ease;
+        transition: all 0.3s ease-in;
         -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
         -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
         box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
